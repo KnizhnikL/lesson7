@@ -1,0 +1,87 @@
+div.ex1 strong{
+ 		font-size: 1.1695906432748537em;
+ 	}
+ 	div.ex2 p{
+ 		    quotes: none;
+ 	}
+ 	div.ex2 a{
+ 		    text-decoration: none;
+ 		    color: black;
+ 	}
+ 	div.ex2 em{
+ 		font-style: normal;    
+ 	}
+ 	div.ex2 strong{
+ 		   font-weight: normal;	
+ 	}
+ 	div.ex2 mark{
+ 		    background-color: white;
+ 	}
+ 	div.ex2 code{
+			font-family: initial;
+ 	}
+ 	div.ex2 i{
+			font-style: initial;
+ 	}
+ 	div.ex2 kbd{
+			font-family: initial;
+ 	}
+ 	div.ex2 abbr{
+ 			text-decoration: none;
+ 		}
+ 	
+ 	div.ex2 small{
+			font-size: initial;
+ 	}
+ 	div.ex2 u{
+			text-decoration: none;
+			}
+	div.ex2 big{
+			font-size: initial;
+ 	}
+ 	div.ex3 {
+ 		border: dotted;
+ 		height: 350px;
+ 		border-color: red;
+ 		background-color: gray;
+ 		background-image: url(kart1.jpeg);
+ 		background-position: right center;
+ 		background-repeat: no-repeat;
+ 		background-size: 25%;
+ 	}
+ 	div.ex4 {
+ 		border: solid;
+    height: 662px;
+    border-color:yellow;
+    background-image: url(kart1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    outline: 6px dashed;
+    outline-color: green;
+    outline-offset: -10px;
+    background-size: 1060px
+ 	}
+ul.list1{
+	    list-style-type: upper-roman;
+}
+ul.list2{
+	    list-style-type: none;
+    counter-reset: item;
+}
+ul.list2 li:before{
+	content: counter(item) ') ';
+    counter-increment: item;
+    margin-left: -17px;
+
+}
+ol.list1{
+	list-style-type: square;
+}
+ol.list2{
+	list-style-type: none;
+}
+ol.list2 li:before{
+	content: '*';
+	position: absolute;
+	margin-left: -17px; 
+}
